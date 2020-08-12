@@ -2,7 +2,7 @@
 <html>
   <head>
     <title>CSS Practice</title>
-    <!-- Link to your external CSS -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!-- Center -->
@@ -13,25 +13,38 @@
     <h2>Fun With Text!</h2>
 
     <!-- Change text color -->
-    <p>This text is red.</p>
-    <p>This text is blue.</p>
-    <p>This text is green.</p>
+    <p style="color: red;">This text is red.</p>
+    <p style="color: blue;">This text is blue.</p>
+    <p style="color: green;">This text is green.</p>
 
     <!-- Change font-size -->
-    <p>This text is BIG!</p>
-    <p>This text is tiny...</p>
+    <p style="font-size: 30px;">This text is BIG!</p>
+    <p style="font-size: 10px;">This text is tiny...</p>
 
     <!-- Center -->
-    <p>~~This text is centered~~</p>
+    <p style="text-align: center;">~~This text is centered~~</p>
 
     <!-- Bold -->
-    <p>If we have something important to say, we can make it bold!</p>
+    <p style="font-weight: 600;">
+      If we have something important to say, we can make it bold!
+    </p>
 
     <!-- Change font -->
-    <p>We can even change our font-family if we are feeling creative!</p>
+    <p style="font-family: monospace;">
+      We can even change our font-family if we are feeling creative!
+    </p>
 
     <!-- Multiple attributes -->
-    <p>Try combining multiple attributes to make big, orange, bold text!</p>
+    <p
+      style="
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        color: orange;
+      "
+    >
+      Try combining multiple attributes to make big, orange, bold text!
+    </p>
 
     <hr />
 

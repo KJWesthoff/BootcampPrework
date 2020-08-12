@@ -1,0 +1,10 @@
+body {background-color: mediumseagreen;}
+
+.styledFont {
+    color: navy;
+}
+
+#styledImage{
+    border: 3px solid navy;
+    
+}
